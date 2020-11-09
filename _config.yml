@@ -4,7 +4,7 @@ email:              "bmxml@naver.com"
 description:        "유튜브로 돈벌기, 유튜버가 되고 싶은 사람들"
 author:             "김태훈"
 baseurl:            "/"
-url:                "https://KimTaeHoon-K.github.io"
+url:                "https://kimtaehoon-k.github.io/"
 locale:             "ko_KR"
 thumbnail:          "/img/Blog_Thumbnail.png"
 
