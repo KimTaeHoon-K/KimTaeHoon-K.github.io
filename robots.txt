@@ -2,3 +2,5 @@ User-agent: *
 Allow: /
 
 Sitemap: https://kimtaehoon-k.github.io//sitemap.xml
+
+DaumWebMasterTool:e5a35de22020aa0cf84479254b5e1a018ca8a4eaca48811ad764f4364682f56f:AjqBsM5N9OwqdGhcHVi0YA==
