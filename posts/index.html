@@ -9,7 +9,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
 {% for post in paginator.posts %}
 
-<article class="post-preview">
+<article class="post-preview" id="ga-tag">
   <a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}">
     {% if post.feature %}
       <img class="post-feature" src="{{ post.feature }}" alt="">
