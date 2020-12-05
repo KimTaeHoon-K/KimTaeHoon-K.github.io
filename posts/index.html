@@ -6,7 +6,7 @@ background: '/img/bg-post.jpg'
 
 {% for post in paginator.posts %}
 
-<article class="post-preview" id="ga-tag">
+<article class="post-preview">
   <a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}">
     {% if post.feature %}
       <img class="post-feature" src="{{ post.feature }}" alt="">
