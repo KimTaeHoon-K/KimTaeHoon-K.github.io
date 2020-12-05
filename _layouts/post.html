@@ -1,7 +1,12 @@
 ---
 layout: default
 ---
-
+<script>
+  dataLayer.push({
+    'event': 'viewContent',
+    'title': '{{ page.title }}'
+  });
+</script>
 <!-- Page Header -->
 {% if page.background %}
   <header class="masthead" style="background-image: url('{{ page.background | prepend: site.baseurl | replace: '//', '/' }}')">
@@ -50,16 +55,6 @@ layout: default
       </div>
     </div>
   </article>
-
-  
-
-
-    <script>
-      datalayer.push({
-        'event': 'viewContent',
-        'title': '{{ page.title }}'
-      });
-    </script>
 
 
 
