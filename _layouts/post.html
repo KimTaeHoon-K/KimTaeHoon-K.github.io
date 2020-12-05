@@ -54,10 +54,19 @@ layout: default
   <script>
 
     fbq('track', 'ViewContent', {
-      content_name: '{{ page.title }}'
+      content_name: '{{ page.title }}%'
     });
+    </script>
 
+
+  <script>
+  	fbq('trackCustom', 'ScrollTracking', {
+  	content_title: '{{ page.title }}%', // 페이지의 제목
+  	scroll_depth: '{{Scroll Depth Threshold}}%' // 스크롤 깊이
+  	});
   </script>
+
+
 
   <script>
     datalayer.push({
